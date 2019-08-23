@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE7D4AE2230DEA010028755D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D4AE1230DEA010028755D /* AppDelegate.swift */; };
+		BE7D4AE4230DEA010028755D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D4AE3230DEA010028755D /* ViewController.swift */; };
+		BE7D4AE7230DEA010028755D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7D4AE5230DEA010028755D /* Main.storyboard */; };
+		BE7D4AE9230DEA040028755D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7D4AE8230DEA040028755D /* Assets.xcassets */; };
+		BE7D4AEC230DEA040028755D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7D4AEA230DEA040028755D /* LaunchScreen.storyboard */; };
+		BE7D4AF7230DEA040028755D /* SonidosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D4AF6230DEA040028755D /* SonidosTests.swift */; };
+		BE7D4B02230DEA040028755D /* SonidosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D4B01230DEA040028755D /* SonidosUITests.swift */; };
+		BE7D4B10230DEC5D0028755D /* pokemon-anime-7-pokemon-out.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE7D4B0F230DEC5D0028755D /* pokemon-anime-7-pokemon-out.mp3 */; };
+		BE87D2FC23107F0D007E6830 /* FOX.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE87D2FB23107F0D007E6830 /* FOX.mp3 */; };
+		BE87D2FE2310891B007E6830 /* PantallaRojaCotroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE87D2FD2310891B007E6830 /* PantallaRojaCotroller.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE7D4AF3230DEA040028755D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE7D4AD6230DEA010028755D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE7D4ADD230DEA010028755D;
+			remoteInfo = Sonidos;
+		};
+		BE7D4AFE230DEA040028755D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE7D4AD6230DEA010028755D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE7D4ADD230DEA010028755D;
+			remoteInfo = Sonidos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE7D4ADE230DEA010028755D /* Sonidos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sonidos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7D4AE1230DEA010028755D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE7D4AE3230DEA010028755D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE7D4AE6230DEA010028755D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE7D4AE8230DEA040028755D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE7D4AEB230DEA040028755D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE7D4AED230DEA040028755D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE7D4AF2230DEA040028755D /* SonidosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonidosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7D4AF6230DEA040028755D /* SonidosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonidosTests.swift; sourceTree = "<group>"; };
+		BE7D4AF8230DEA040028755D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE7D4AFD230DEA040028755D /* SonidosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonidosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7D4B01230DEA040028755D /* SonidosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonidosUITests.swift; sourceTree = "<group>"; };
+		BE7D4B03230DEA040028755D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE7D4B0F230DEC5D0028755D /* pokemon-anime-7-pokemon-out.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "pokemon-anime-7-pokemon-out.mp3"; sourceTree = "<group>"; };
+		BE87D2FB23107F0D007E6830 /* FOX.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FOX.mp3; sourceTree = "<group>"; };
+		BE87D2FD2310891B007E6830 /* PantallaRojaCotroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantallaRojaCotroller.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE7D4ADB230DEA010028755D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7D4AEF230DEA040028755D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7D4AFA230DEA040028755D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE7D4AD5230DEA010028755D = {
+			isa = PBXGroup;
+			children = (
+				BE7D4AE0230DEA010028755D /* Sonidos */,
+				BE7D4AF5230DEA040028755D /* SonidosTests */,
+				BE7D4B00230DEA040028755D /* SonidosUITests */,
+				BE7D4ADF230DEA010028755D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE7D4ADF230DEA010028755D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE7D4ADE230DEA010028755D /* Sonidos.app */,
+				BE7D4AF2230DEA040028755D /* SonidosTests.xctest */,
+				BE7D4AFD230DEA040028755D /* SonidosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE7D4AE0230DEA010028755D /* Sonidos */ = {
+			isa = PBXGroup;
+			children = (
+				BE87D2FB23107F0D007E6830 /* FOX.mp3 */,
+				BE7D4B0F230DEC5D0028755D /* pokemon-anime-7-pokemon-out.mp3 */,
+				BE7D4AE1230DEA010028755D /* AppDelegate.swift */,
+				BE7D4AE3230DEA010028755D /* ViewController.swift */,
+				BE7D4AE5230DEA010028755D /* Main.storyboard */,
+				BE7D4AE8230DEA040028755D /* Assets.xcassets */,
+				BE7D4AEA230DEA040028755D /* LaunchScreen.storyboard */,
+				BE7D4AED230DEA040028755D /* Info.plist */,
+				BE87D2FD2310891B007E6830 /* PantallaRojaCotroller.swift */,
+			);
+			path = Sonidos;
+			sourceTree = "<group>";
+		};
+		BE7D4AF5230DEA040028755D /* SonidosTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE7D4AF6230DEA040028755D /* SonidosTests.swift */,
+				BE7D4AF8230DEA040028755D /* Info.plist */,
+			);
+			path = SonidosTests;
+			sourceTree = "<group>";
+		};
+		BE7D4B00230DEA040028755D /* SonidosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE7D4B01230DEA040028755D /* SonidosUITests.swift */,
+				BE7D4B03230DEA040028755D /* Info.plist */,
+			);
+			path = SonidosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE7D4ADD230DEA010028755D /* Sonidos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7D4B06230DEA040028755D /* Build configuration list for PBXNativeTarget "Sonidos" */;
+			buildPhases = (
+				BE7D4ADA230DEA010028755D /* Sources */,
+				BE7D4ADB230DEA010028755D /* Frameworks */,
+				BE7D4ADC230DEA010028755D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sonidos;
+			productName = Sonidos;
+			productReference = BE7D4ADE230DEA010028755D /* Sonidos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE7D4AF1230DEA040028755D /* SonidosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7D4B09230DEA040028755D /* Build configuration list for PBXNativeTarget "SonidosTests" */;
+			buildPhases = (
+				BE7D4AEE230DEA040028755D /* Sources */,
+				BE7D4AEF230DEA040028755D /* Frameworks */,
+				BE7D4AF0230DEA040028755D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE7D4AF4230DEA040028755D /* PBXTargetDependency */,
+			);
+			name = SonidosTests;
+			productName = SonidosTests;
+			productReference = BE7D4AF2230DEA040028755D /* SonidosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE7D4AFC230DEA040028755D /* SonidosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7D4B0C230DEA040028755D /* Build configuration list for PBXNativeTarget "SonidosUITests" */;
+			buildPhases = (
+				BE7D4AF9230DEA040028755D /* Sources */,
+				BE7D4AFA230DEA040028755D /* Frameworks */,
+				BE7D4AFB230DEA040028755D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE7D4AFF230DEA040028755D /* PBXTargetDependency */,
+			);
+			name = SonidosUITests;
+			productName = SonidosUITests;
+			productReference = BE7D4AFD230DEA040028755D /* SonidosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE7D4AD6230DEA010028755D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = equipo;
+				TargetAttributes = {
+					BE7D4ADD230DEA010028755D = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					BE7D4AF1230DEA040028755D = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = BE7D4ADD230DEA010028755D;
+					};
+					BE7D4AFC230DEA040028755D = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = BE7D4ADD230DEA010028755D;
+					};
+				};
+			};
+			buildConfigurationList = BE7D4AD9230DEA010028755D /* Build configuration list for PBXProject "Sonidos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE7D4AD5230DEA010028755D;
+			productRefGroup = BE7D4ADF230DEA010028755D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE7D4ADD230DEA010028755D /* Sonidos */,
+				BE7D4AF1230DEA040028755D /* SonidosTests */,
+				BE7D4AFC230DEA040028755D /* SonidosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE7D4ADC230DEA010028755D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE87D2FC23107F0D007E6830 /* FOX.mp3 in Resources */,
+				BE7D4B10230DEC5D0028755D /* pokemon-anime-7-pokemon-out.mp3 in Resources */,
+				BE7D4AEC230DEA040028755D /* LaunchScreen.storyboard in Resources */,
+				BE7D4AE9230DEA040028755D /* Assets.xcassets in Resources */,
+				BE7D4AE7230DEA010028755D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7D4AF0230DEA040028755D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7D4AFB230DEA040028755D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE7D4ADA230DEA010028755D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE87D2FE2310891B007E6830 /* PantallaRojaCotroller.swift in Sources */,
+				BE7D4AE4230DEA010028755D /* ViewController.swift in Sources */,
+				BE7D4AE2230DEA010028755D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7D4AEE230DEA040028755D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7D4AF7230DEA040028755D /* SonidosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7D4AF9230DEA040028755D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7D4B02230DEA040028755D /* SonidosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE7D4AF4230DEA040028755D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE7D4ADD230DEA010028755D /* Sonidos */;
+			targetProxy = BE7D4AF3230DEA040028755D /* PBXContainerItemProxy */;
+		};
+		BE7D4AFF230DEA040028755D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE7D4ADD230DEA010028755D /* Sonidos */;
+			targetProxy = BE7D4AFE230DEA040028755D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE7D4AE5230DEA010028755D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE7D4AE6230DEA010028755D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE7D4AEA230DEA040028755D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE7D4AEB230DEA040028755D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE7D4B04230DEA040028755D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE7D4B05230DEA040028755D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE7D4B07230DEA040028755D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sonidos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.Sonidos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE7D4B08230DEA040028755D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sonidos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.Sonidos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE7D4B0A230DEA040028755D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SonidosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.SonidosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sonidos.app/Sonidos";
+			};
+			name = Debug;
+		};
+		BE7D4B0B230DEA040028755D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SonidosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.SonidosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sonidos.app/Sonidos";
+			};
+			name = Release;
+		};
+		BE7D4B0D230DEA040028755D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SonidosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.SonidosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sonidos;
+			};
+			name = Debug;
+		};
+		BE7D4B0E230DEA040028755D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SonidosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.SonidosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sonidos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE7D4AD9230DEA010028755D /* Build configuration list for PBXProject "Sonidos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7D4B04230DEA040028755D /* Debug */,
+				BE7D4B05230DEA040028755D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7D4B06230DEA040028755D /* Build configuration list for PBXNativeTarget "Sonidos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7D4B07230DEA040028755D /* Debug */,
+				BE7D4B08230DEA040028755D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7D4B09230DEA040028755D /* Build configuration list for PBXNativeTarget "SonidosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7D4B0A230DEA040028755D /* Debug */,
+				BE7D4B0B230DEA040028755D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7D4B0C230DEA040028755D /* Build configuration list for PBXNativeTarget "SonidosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7D4B0D230DEA040028755D /* Debug */,
+				BE7D4B0E230DEA040028755D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE7D4AD6230DEA010028755D /* Project object */;
+}
